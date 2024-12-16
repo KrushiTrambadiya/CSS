@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid { 
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);;
+            grid-gap: 10px;
+            align-items: start;
+            justify-items: center;
+            margin: auto;
+            width: 540px;
+         }
+         .grid img {
+              border: 1px solid rgba(0,0,0,0.3);
+               box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
+                max-width: 100%;
+          }
+           .grid img:nth-child(2) {
+                    grid-column: span 3;
+                    grid-row: span 2;
+          }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <img src="img1.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img3.jpg" alt="">
+        <img src="img4.jpg" alt="">
+        <img src="img5.jpg" alt="">
+        <img src="img6.jpg" alt="">
+        <img src="img1.jpg" alt="">
+        <img src="img2.jpg" alt="">
+        <img src="img3.jpg" alt="">
+        <img src="img1.jpg" alt="">
+      </div>
+</body>
+</html>
