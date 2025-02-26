@@ -1,0 +1,516 @@
+:root {
+  --padding-x: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ /* border: 1px solid ;*/
+}
+a{text-decoration: none;}
+
+ /*----heading start ----*/
+
+.header {
+background: url(assets/Image.png)no-repeat 50% /cover;
+color: white;
+}
+
+.display-flex {
+display: flex;
+}
+
+
+.nav-menu .nav-item {
+display: inline;
+
+
+}
+
+.nav-menu .nav-item a {
+display: inline-block;
+padding: 15px;
+color: white;
+text-decoration: none;
+text-transform: uppercase;
+margin-top: 15px;
+font-size: 20px;
+font-family: "Oswald";
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+ 
+}
+.row {
+  display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+   
+}
+
+.col {
+  padding-left: 15px;
+    padding-right: 15px;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-between{
+  justify-content: space-between;
+  
+}
+  .text-centre {
+    text-align: center;
+  } 
+  .justify-content-around{
+    justify-content: space-around;
+  }
+
+
+.Background {
+  background-color: rgb(48, 48, 48);
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  text-align: center;
+}
+.logo{
+  background-image: url( assets/logo.png);
+  margin-left: 65px;
+  margin-top: -4pc;
+  width: 127px;
+  height: 67px;
+  position: absolute;
+}
+.Search {
+  background-image: url( assets/search.png);
+  position: absolute;
+  left: 1352px;
+  top: 33px;
+  width: 30px;
+  height: 30px;
+  
+}
+.Title {
+  font-size: 121px;
+  font-family: "Oswald";
+  color: rgb(255, 255, 255);
+  text-align: left;
+  margin-top: 373px;
+}
+header h5 {
+  width: 1254px;
+  height: 152px;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  }
+  .Button {
+    left: 0px;
+    top: 0px;
+    width: 1440px;
+    height: 7650px;
+    
+  }
+  .Register_Now {
+    font-size: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Oswald";
+    text-align: center;
+   
+  }
+  .Shape-btn {
+   padding: 10px 30px;
+   margin-bottom: 50px;
+    border-radius: 4px;
+    background-color: #e8631c;
+    display: inline-block;
+  }
+ /*----heading end ----*/
+
+  /*----Section-1 start ----*/
+
+  .Section1Bg {
+   background: url( assets/background\ orenge.png);
+    
+  }
+
+    .section1Title {
+      font-size: 80px;
+      font-family: "Oswald";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+     
+    }
+    .section1BodyText {
+      font-size: 25px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 25px;
+    }
+    
+    .Section1card {
+      background-color: rgb(48, 48, 48);
+      margin-top: 15px;
+      width: 340px;
+      height: 493px;
+   
+    }
+    .img {
+      height: 325px;
+      width: 340px;
+    }
+    .Section1cardTitle {
+      font-size: 35px;
+      font-family: "Oswald";
+      color: rgb(255, 255, 255);
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 15px;
+    }
+    .Section1card_body_text {
+      font-size: 22px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      line-height: 1.2;
+      text-align: center;
+      margin-top: 20px;
+      
+    }
+    .Design {
+      width: 812px;
+      height: 732px;
+    }
+    
+      /*----Section-1 end ----*/
+
+        /*----Section-2 start ----*/
+    
+    .Section2bg {
+      background: url( assets/background\ black.png);
+      padding-bottom: 70px;
+    }
+    
+     .Section2Title {
+      font-size: 80px;
+      font-family: "Oswald";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 107px;
+    }
+     .Section2 Body Text {
+      font-size: 58.333px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      line-height: 1.2;
+      text-align: center;
+    }
+    .Section2card {
+      border-radius: 8px;
+      background-color: rgb(232, 99, 28);
+      width: 340px;
+      height: 493px;
+      
+    }
+    .image {
+      margin-left: 111px;
+      margin-top: 75px;
+    }
+    .Section2cardTitle {
+      font-size: 35px;
+      font-family: "Oswald";
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-top: 20px;
+      text-align: center;
+
+    }
+    .Section2card_body_text {
+      font-size: 22px;
+      font-family: "Montserrat";
+      color: rgb(255, 255, 255);
+      margin-top: 20px;
+      text-align: center;
+    }
+    .Section2card-btn{
+        border-radius: 4px;
+        background-color: rgb(48, 48, 48);
+       margin: 20px;        
+       margin-top: 34px;
+       margin-left: 20px;
+      }
+      .Section2card-btn-name{
+        font-size: 40px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        text-align: center;
+      }
+
+      /*----Section-2 end----*/
+
+        /*----Section-3 start ----*/
+
+      .Section3 {
+          background: url( assets/background\ orenge.png);
+          
+      }
+      .image1{
+        width: 775px;
+        height: 1050px;
+      }
+    
+      .Section3Title {
+          font-size: 75px;
+          font-family: "Oswald";
+          color: rgb(255, 255, 255);
+          font-weight: bold;
+          text-transform: uppercase;
+          margin-left: 145px;
+         
+        }
+      .Section3BodyText {
+          font-size: 27px;
+          font-family: "Montserrat";
+          color: rgb(255, 255, 255);
+          margin: 35px 0px 0px 145px;
+        
+      }
+      .Shape-btn3 {
+        padding: 10px 30px;
+        margin-bottom: 50px;
+         border-radius: 4px;
+         background-color: hsl(0, 0%, 0%);
+         display: inline-block;
+         margin: 50px 0px 0px 145px;
+         font-size: 35px;
+         color: white;
+         text-transform: uppercase;
+         font-family: "Oswald";
+        }
+
+         /*----Section-3 end ----*/
+
+           /*----Section-4 start ----*/
+
+        .Section4 {
+          background: url( assets/background\ orenge.png);
+        
+      }
+      .Section4Title {
+        font-size: 75px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-left: 145px;
+       
+      }
+    .Section4BodyText {
+        font-size: 27px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        margin: 35px 0px 0px 145px;
+      
+    }
+    .Shape-btn4 {
+      padding: 10px 30px;
+      margin-bottom: 50px;
+       border-radius: 4px;
+       background-color: hsl(0, 0%, 0%);
+       display: inline-block;
+       margin: 50px 0px 0px 145px;
+       font-size: 35px;
+       color: white;
+       text-transform: uppercase;
+       font-family: "Oswald";
+      }
+    
+       /*----Section-4 end ----*/
+
+        /*----Section-5 start ----*/
+
+      .Section5 {
+        background: url( assets/background\ black.png);
+      
+      }
+
+      .Section5Title {
+        font-size: 75px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 200px 0px 0px 150px;
+      }
+  
+      .Section5BodyText {
+        font-size: 27px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+        margin: 55px 0px 0px 210px;
+      text-align: center;
+      }
+      .card {
+        font-size: 65px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 60px;
+      }
+      .cardname{
+          font-size: 35px;
+          font-family: "Montserrat";
+          color: rgb(255, 255, 255);
+          line-height: 1.2;
+          text-align: center;
+          margin-bottom: 100px;
+      }
+
+       /*----Section-5 end ----*/
+
+        /*----Section-6 start ----*/
+
+      .Section6 {
+        background: url( assets/orenge.png)no-repeat 50% /cover;
+        height: 100%;
+      }
+      .Section6Title{
+        font-size: 50px;
+        font-family: "Nunito";
+        color: rgb(255, 255, 255);
+        line-height: 1.2;
+        text-align: center;
+        margin-top: 315px;
+      
+      }
+      .Section6BodyText {
+        font-size: 50px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 24pc;
+      }
+       /*----Section-6 end ----*/
+
+        /*----Section-7 start ----*/
+
+      .Section7{
+        background: url( assets/background\ orenge.png);
+      }
+      .Section7Title{
+        font-size: 75px;
+        font-family: "Oswald";
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+      
+      }
+      .Section7BodyText {
+        font-size: 32px;
+        font-family: "Montserrat";
+        color: rgb(255, 255, 255);
+       
+        text-align: center;
+        margin-top: 50px;
+      }
+      .input-type {
+        padding: 15px;
+        width: 550px;
+        margin: 70px 0px 0px 400px;
+     
+      }
+      
+      .input_text {
+        padding-bottom: 150px;
+      }
+      
+      .sec7_subscribe {
+        font-size: 25px;
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: 700;
+        font-family: "Montserrat";
+        text-align: center;
+        padding: 9px;
+        border-radius: 1px;
+        background-color: #333333;
+        margin-right: 410px;
+        margin: 70px 410px 0px 0px;
+      }
+
+       /*----Section-7 end ----*/
+
+        /*----Section-8 (footer) start ----*/
+
+      .footer{
+        background-color: #333333;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+      }
+      .sec8-tital {
+        font-size: 31px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        margin-top:100px ;
+      }
+      
+      .sec8-disc {
+        font-size: 24px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Montserrat";
+        max-width: 500px;
+        padding: 20px 0;
+      }
+      .soci-icon {
+        width: 55px;
+        text-decoration: none;
+      }
+      ul li {
+        list-style: none;
+        font-size: 20px;
+        line-height: 42px;
+        color: #ffffff;
+        font-family: "Montserrat";
+
+      }
+
+      .footer_header {
+        display: block;
+        font-size: 31px;
+        color: #ffffff;
+        font-family:"Montserrat";
+        margin-top: 100px;
+      }
+   /*----Section-8 (footer) end ----*/
