@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+counter-reset: item;
+}
+
+
+div::before {
+  counter-increment: item;
+  content: " 2 " counter(item) ":  ";
+}
+div::before {
+  counter-increment: subsection;
+  content: counter(2) "." counter(subsection) " ";
+}
+
+</style>
+<body>
+      <h1>Css property</h1>
+
+      <div> graphics</div>
+      <div> ui/ux design</div>
+      <div> web devlelopment</div>
+      <div> Full stack developer</div>
+    
+</body>
+</html>

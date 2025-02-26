@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     .box {
+            height: 100px;
+            margin: 50px;
+            padding: 50px;
+            background-color: hsl(338, 72%, 60%);
+            color: rgb(0, 0, 0);
+        }
+
+        .background-color {
+            background-color: #599ed3;
+            color: #0a0a0a;
+            font-size: 30px;
+        }
+
+        .bg-img {
+            background-image: url(image.jpg)
+            
+        }
+
+        .background-attachment {
+            background-attachment: fixed;
+
+        }
+
+        .background-clip-border {
+            background-clip: border-box;
+            border: 20px dashed hsla(0, 0%, 0%, 0.486);
+            font-size: 30px;
+        }
+
+        .background-clip-content {
+            background-clip: content-box;
+            border: 20px dashed #0000007c;
+            font-size: 30px;
+        }
+
+        .background-clip-padding {
+            background-clip: padding-box;
+            border: 20px dashed #0000007c;
+            font-size: 30px;
+        }
+
+        .background-origin-border {
+            background-origin: border-box;
+            border: 20px dashed rgba(0, 0, 0, 0.486);
+            font-size: 30px;
+        }
+
+        .background-origin-content {
+            background-origin: content-box;
+            border-right: 20px dashed hwb(0 3% 15% / 0.486);
+            font-size: 30px;
+            
+        }
+
+        .background-origin-padding {
+            background-origin: padding-box;
+            border: 20px dashed #0000007c;
+            font-size: 30px;
+           
+        }
+           
+        .background-position {
+            height: 500px;
+            background-position: center bottom;
+            background-repeat: no-repeat;
+            border: 20px dashed hsla(0, 0%, 0%, 0.486);
+            font-size: 30px;
+        }
+
+        .background-size {
+            height: 500px;
+            border: 20px dashed hwb(0 0% 100% / 0.486);
+            background: url(bg.jpg) no-repeat center center /cover;
+            font-size: 30px;
+        }
+</style>
+<body>
+
+    <ol>
+        <li>background-color</li>
+        <li>background-image</li>
+        <li>background-attachment</li>
+        <li>background-clip</li>
+        <li>background-origin</li>
+        <li>background-position</li>
+        <li>background-repeat</li>
+        <li>background-size</li>
+    </ol>
+
+    <div class="box background-color">background-color</div>
+    <div class="box bg-img">background-image</div>
+    <div class="box background-attachment"> This is example background-attachment</div>
+    <div class="box background-clip-border">This is example background-clip-border</div>
+    <div class="box background-clip-content">This is example background-clip-content</div>
+    <div class="box background-clip-padding">This is example background-clip-padding</div>
+    <div class="box background-origin-border"> This is example background-origin-border</div>
+    <div class="box background-origin-padding"> This is example background-origin-padding</div>
+    <div class="box background-position">This is example background-position</div>
+    <div class="box background-size">This is example background-size</div>
+
+  
+</body>
+</html>

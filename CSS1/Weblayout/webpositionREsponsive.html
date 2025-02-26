@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Layout</title>
+    <link rel="stylesheet" href="media.css">
+
+    <!-- Internal CSS  -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      .container {
+        width: 90%;
+        margin: 0 auto;
+      }
+      img {
+        width: 100%;
+      }
+      .row {
+        display: flex;
+        align-items: center;
+      }
+      .col-50 {
+        width: 50%;
+      }
+      .col-33 {
+        width: 33.33%;
+      }
+      .col-25 {
+        width: 25%;
+      }
+      .wrapper {
+        padding: 50px 0px;
+      }
+      #section-1 {
+        background-color: teal;
+        color: khaki;
+      }
+      #section-2 {
+        background-color: crimson;
+        color: aliceblue;
+      }
+      #section-3 {
+        background-color: blue;
+        color: aliceblue;
+      }
+      h2 {
+        font-size: 35px;
+      }
+      h2 + p {
+        font-size: 25px;
+        padding-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Section with col-50  -->
+    <section id="section-1">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-50">
+              <h2>Sub-Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                dolorum magni architecto et maxime reprehenderit!
+              </p>
+            </div>
+            <div class="col-50">
+              <img src="images (1).jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section with col-33  -->
+    <section id="section-2">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-33">
+              <img src="images (1).jpeg" alt="" />
+            </div>
+            <div class="col-33">
+              <h2>Sub-Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                dolorum magni architecto et maxime reprehenderit!
+              </p>
+            </div>
+            <div class="col-33">
+              <img src="images (1).jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section with col-25  -->
+    <section id="section-3">
+      <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-25">
+              <img src="images (1).jpeg" alt="" />
+            </div>
+            <div class="col-25">
+              <h2>Sub-Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                dolorum magni architecto et maxime reprehenderit!
+              </p>
+            </div>
+            <div class="col-25">
+              <img src="images (1).jpeg" alt="" />
+            </div>
+            <div class="col-25">
+              <h2>Sub-Heading</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut,
+                dolorum magni architecto et maxime reprehenderit!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- Task Of The Day  -->
+
+<!-- https://w

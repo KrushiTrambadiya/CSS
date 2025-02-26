@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Selectors Example</title>
+   <style>
+   
+p {
+    color: black;
+}
+
+
+.container p {
+    color: blue;
+}
+
+
+div.container p {
+    color: red;
+}
+
+   </style>
+</head>
+<body>
+    <h1>Use nested selectors to style an element and observe how specificity impacts priority.
+    </h1>
+
+    <div class="container">
+        <p>This is a paragraph inside a container.</p>
+    </div>
+    <p>This is a paragraph outside any container.</p>
+</body>
+</html>

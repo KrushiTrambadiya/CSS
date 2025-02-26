@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.button1:hover{
+    color: black; 
+   background-color: green;
+    }      
+   .button2:hover {
+
+    color: black; 
+    background-color: blue;
+   }
+   .button3:hover {
+    color: black; 
+   background-color: red;
+   }
+
+   .button4:hover {
+    color: black;
+   background-color: grey;
+   }

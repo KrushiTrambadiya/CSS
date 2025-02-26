@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            height: 100px;
+            margin: 50px;
+            padding: 50px;
+        }
+          .background-clip-border1 {
+            background-clip: border-box;
+            padding: 50px;
+            border: 10px solid hwb(32 0% 0% / 0.91);
+            font-size: 50px;
+            color: orange;
+          }
+
+          .background-clip-border2 {
+            background-clip: border-box;
+            padding: 50px;
+            border: 10px solid rgba(31, 129, 1, 0.91);
+            font-size: 50px;
+            color: orange;
+          }
+
+          .background-clip-border3 {
+            background-clip: border-box;
+            padding: 50px;
+            border-top: 10px solid #3009e1e8;
+            border-right: 10px solid #195a06e8;
+            border-left: 10px solid gray;
+            border-bottom: 10px solid #e20505e8;
+            font-size: 50px;
+            color: orange;
+          }
+
+          .background-clip-border4 {
+            background-clip: border-box;
+            padding: 50px;
+            border: 10px dotted #f1c70ce8;
+            font-size: 50px;
+            color: orange;
+          }
+
+
+    </style>
+</head>
+<body>
+     <div class=" box background-clip-border1">Defauit color. If the border's color hasn't been explicity set,it uses currentColour </div>
+     <div class=" box background-clip-border2">This box'border color has been explicity set. </div>
+     <div class=" box background-clip-border3">Each side of this box has been set to a different color. </div>
+     <div class=" box background-clip-border4"> This box has had its border properties set using the border shorthand property</div>
+
+
+
+</body>
+</html>

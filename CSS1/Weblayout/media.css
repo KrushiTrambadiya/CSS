@@ -1,0 +1,12 @@
+@media (max-width: 576px){
+  
+    .row {
+        flex-direction: column;
+        gap: 20px;
+      }
+       .col-100 {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+      }
+      }

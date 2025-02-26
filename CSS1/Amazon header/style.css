@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid {
+    width: 100%;
+}
+header{
+    width:100%;
+    height: 55px;
+    color: aliceblue;
+    background-color: #08081c;
+}
+.row{
+    display: flex;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.col{
+    padding-left: 2px;
+    padding-right: 2px;
+}
+.logo{
+     width: 125px;
+     height: 50px;
+     margin: 2px;
+}
+.locatoin-name{
+    font-size: 14px;
+    color: rgb(156, 156, 156);
+    margin: 10px 0px 0px 0px ;
+    font-family: sans-serif;
+}
+.locatoin-name1{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+
+input{
+    margin-top: 10px;
+    margin: -2;
+    padding: 10px;
+    width: 500px;
+    border: none;
+}
+.input1{
+    margin-left: 20px;
+    padding: 10px;
+    width: 60px;
+    background-color:rgb(197, 195, 195);
+    border: none;
+}
+
+::placeholder{
+    color: hsl(0, 2%, 45%);
+}
+
+ button{
+    float: right;
+    width: 3%;
+    margin: 10px 0px 8px -6px;
+    background: hsl(38, 92%, 45%);
+    color: white;
+    font-size: 17px;
+    border: 1px solid #da6416;
+    border-left: none;
+    cursor: pointer;
+}
+.flag{
+    width: 35px;
+    height: 20px;
+    margin: 20px 0px 0px 28px;
+}
+.en{
+    font-family: sans-serif;
+    color: #ffffff;   
+    font-size: 15px;
+    font-weight: bold;
+    margin: 22px 0px 0px 5px;
+}
+.caret-down{
+    margin: 25px 0px 0px 2px
+}
+.hello{
+    font-family: sans-serif;
+    color: #ffffff;   
+    font-size: 14px;
+    margin: 5px 0px 0px 30px;
+}
+.Account{
+    font-family: sans-serif;
+    color: #ffffff;   
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 0px 0px 30px;
+}
+.caret-down2{
+    margin: 25px 0px 0px 2px
+}
+.return{
+    font-family: sans-serif;
+    color: #ffffff;   
+    font-size: 14px;
+    margin: 5px 0px 0px 20px;
+}
+.order{
+    font-family: sans-serif;
+    color: #ffffff;   
+    font-size: 17px;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+}
+.cart-img{
+    width: 45px;
+    height: 40px;
+    margin: 5px 0px 0px 30px
+}
+.cart{
+   
+    font-family: sans-serif;
+    color: #ffffff;   
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0px 0px 0px;
+}
+.Header2{
+    width: 100%;
+    height: 40px;
+    color: aliceblue;
+    background-color: hsl(240, 19%, 21%);
+}
+.bar{
+    margin: 12px 0px 0px 10px;
+}
+.caret-down3{
+    margin: 14px 0px 0px 3px;
+    color: hsl(0, 0%, 65%);
+}
+.name{
+    margin: 12px 0px 0px 2px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.name2{
+    margin: 12px 0px 0px 23px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+ 
+}
+ .display{
+    display: flex;
+ }
+ .name2 :hover{
+   border-color: aliceblue;
+
+ }
+

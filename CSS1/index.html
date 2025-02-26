@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+    
+        
+        *::after,
+        *::before {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        
+        html {
+          font-size: 62.5%;
+        }
+        
+        body {
+          width: 100vw;
+          min-height: 100vh;
+          background-color: #3f3c3c;
+          font-family: 'Poppins', sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        
+        .container {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+        }
+        
+        .container .box {
+          position: relative;
+          width: 30rem;
+          height: 30rem;
+          margin: 4rem;
+        }
+        
+        .container .box:hover .imgBox {
+          transform: translate(-3.5rem, -3.5rem);
+        }
+        
+        .container .box:hover .content {
+          transform: translate(3.5rem, 3.5rem);
+        }
+        
+        .imgBox {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 2;
+          transition: all 0.5s ease-in-out;
+        }
+        
+        .imgBox img {
+          width: 30rem;
+          height: 30rem;
+          object-fit: cover;
+          resize: both;
+        }
+        
+        .content {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          padding: 1.5rem;
+          display: flex;
+          justify-content: center;
+          background-color: #fff;
+          z-index: 1;
+          align-items: flex-end;
+          text-align: center;
+          transition: 0.5s ease-in-out;
+        }
+        
+        .content h2 {
+          display: block;
+          font-size: 2rem;
+          color: #111;
+          font-weight: 500;
+          line-height: 2rem;
+          letter-spacing: 1px;
+        }
+        
+        .content span {
+          color: #555;
+          font-size: 1.4rem;
+          font-weight: 300;
+          letter-spacing: 2px;
+        }
+        
+        @media (max-width: 600px) {
+          .container .box:hover .content {
+            transform: translate(0, 3.5rem);
+          }
+          .container .box:hover .imgBox {
+            transform: translate(0, -3.5rem);
+          }
+        }
+    
+        </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="imgBox">
+                <img src="c:\Users\DELL\Pictures\Saved Pictures\WhatsApp Image 2025-02-07 at 14.50.15_9accbc72.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Prijesh Monpara</br>
+                <span>Ui/Ux Designer</span></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="c:\Users\DELL\Pictures\Saved Pictures\WhatsApp Image 2025-02-07 at 14.50.15_9accbc72.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Prijesh Monpara</br>
+                <span>Web Designer</span></h2>
+            </div>
+        </div>
+        <div class="box">
+            <div class="imgBox">
+                <img src="c:\Users\DELL\Pictures\Saved Pictures\WhatsApp Image 2025-02-07 at 15.09.12_29180621.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2>Viraj Kadivar</br>
+                <span>Ui/Ux & Web Designer</span></h2>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Layout</title>
+    <style>
+      body {
+           font-family: Arial, sans-serif;
+           justify-content: center;
+           background-color: #f4f4f4;
+          }
+     .grid-container {
+               display: grid;
+               grid-template-areas: 
+               "header header header"
+               "nav article aside"
+                "footer footer footer";
+                grid-template-rows: 80px 1fr 70px;  
+                grid-template-columns: 1fr 50% 25%;
+                height: 400px;
+                width: 800px;
+                 margin: 50px auto;
+          }
+
+          
+
+.header {
+    grid-area: header;
+    background-color: hwb(122 23% 9%);
+}
+
+.article {
+    grid-area: article;
+    background-color: #ffffff; 
+}
+.aside {
+    grid-area: aside;
+   background-color: hwb(0 84% 16%);
+   
+}
+
+.nav {
+    grid-area: nav;
+    background-color: #84dbf6;
+}
+
+.footer {
+    grid-area: footer;
+    background-color: hwb(122 23% 9%);
+ 
+   
+}
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="header">Header</div>
+        <div class="article">Article</div>
+        <div class="aside">Aside</div>
+        <div class="nav">Nav</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
